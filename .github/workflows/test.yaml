@@ -22,7 +22,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - name: Install dependencies
-        run: sudo apt-get install -y zbarimg && npm install
+        run: sudo apt-get install -y zbar-tools && npm install
       - name: Build
         run: make dist
       - name: Test
