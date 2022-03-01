@@ -22,9 +22,8 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - name: Install dependencies
-      - run: apt install zbarimg
-      - run: npm install
+        run: apt install zbarimg && npm install
       - name: Build
-      - run: make dist
+        run: make dist
       - name: Test
-      - run: make test 
+        run: make test 
