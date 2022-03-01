@@ -17,6 +17,6 @@ latin1_barcode("latin1 §ÄÖÜ", "myCanvas", 400, 100);
 ```
 
 ## Download 
-- [latin1-barcode.js](https://raw.githubusercontent.com/najtin/bibtex-to-json/master/dist/latin1-barcode.js)
-- [latin1-barcode.min.js](https://raw.githubusercontent.com/najtin/bibtex-to-json/master/dist/latin1-barcode.min.js)
-- [latin1-barcode.js.map](https://raw.githubusercontent.com/najtin/bibtex-to-json/master/dist/latin1-barcode.js.map)
+- [latin1-barcode.js](https://raw.githubusercontent.com/najtin/latin1-barcode-js/master/dist/latin1-barcode.js)
+- [latin1-barcode.min.js](https://raw.githubusercontent.com/najtin/latin1-barcode-js/master/dist/latin1-barcode.min.js)
+- [latin1-barcode.js.map](https://raw.githubusercontent.com/najtin/latin1-barcode-js/master/dist/latin1-barcode.js.map)
