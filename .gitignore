@@ -1,0 +1,4 @@
+dist/barcode.js.map
+node_modules
+package-lock.json
+test/test.png

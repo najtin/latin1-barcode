@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "target": "ES5",
+      "module": "system",
+      "noImplicitAny": true,
+      "removeComments": true,
+      "preserveConstEnums": true,
+      "outFile": "dist/latin1-barcode.js",
+      "sourceMap": true
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules", "**/*.spec.ts", "dist"]
+  }
