@@ -1,4 +1,4 @@
-name: zbar Compatibility
+name: Tests
 
 on:
   push:
