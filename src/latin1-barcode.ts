@@ -250,9 +250,9 @@ function transition(state: State): State[]{
             return [state.new_extended([char-32], 1, CodeTable.C128B)]; 
         }
     }
-    //One can cap FNC4 with two consecutive FNC4s but in order to 
+    //One can lock FNC4 with two consecutive FNC4s but in order to 
     //get the optinal encoding we would either require another state
-    //or a look-ahead of 4. Both is considered to complicated at the time.
+    //or a look-ahead of 4. Both is considered too complicated at the time.
     console.log("WARNING: Result may not be optimal");
 
     //latin1 chars in single FNC4 range
