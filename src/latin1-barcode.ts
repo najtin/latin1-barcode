@@ -365,4 +365,4 @@ function latin1_barcode(text: string, canvas_id: string, width: number, height: 
     draw_on_canvas(text, canvas, width, height);
 }
 
-if(typeof process === 'object') module.exports = latin1_barcode;
+if(typeof process === 'object') module.exports = draw_on_canvas;

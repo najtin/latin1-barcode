@@ -342,7 +342,7 @@ function draw_on_canvas(text, canvas, width, height) {
         bar_width = 0;
     }
 }
-function draw(text, canvas_id, width, height) {
+function latin1_barcode(text, canvas_id, width, height) {
     var canvas = document.getElementById(canvas_id);
     draw_on_canvas(text, canvas, width, height);
 }

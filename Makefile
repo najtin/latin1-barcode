@@ -9,6 +9,7 @@ dist: compile
 	@echo "dist/latin1-barcode.js"
 	@echo "dist/latin1-barcode.min.js"
 	@echo "dist/latin1-barcode.js.map"
+	@echo ""
 
 compile: deps
 	@npx tsc
