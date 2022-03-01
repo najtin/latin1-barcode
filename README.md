@@ -1,5 +1,5 @@
 # latin1-barcode (Code128)
-![example workflow](https://github.com/najtin/latin1-barcode/actions/workflows/test/badge.svg)
+![test badge](https://github.com/najtin/latin1-barcode/actions/workflows/test/badge.svg)
 
 Encode symbols from the Latin-1 (ISO/IEC 8859-1) charset in a Code128 barcode. *Beware, this project is in its early stages.* All three encoding modes Code128A, B and C are supported. Most inputs will be short enough and fully optimized. Long inputs are not always optimized to save runtime. Inputs containing consecutive, non-ASCII characters might also be non-optimal, though in practice this case should be rare.
 
